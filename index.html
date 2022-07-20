@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('Y6or6_0_jEQnPbOs3');
+        })();
+    </script>
+    <title>Fragrance WEBSITE</title>
+
+</head>
+<body>
+
+        <!--navbar-->
+    <nav class="navbar" id="Navbar">
+        <div class="logo">
+            <img src="/images/logo.jpg" alt="brand-logo" class="logo-img">
+        </div>
+      
+        <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Pricing">Pricing</a></li>
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#Contact-Us">Contact Us</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <header id="Home">
+ 
+        <div class="header-content">
+            <h1 class="lead-text">Fragrance Haven</h1>
+            <div class="line"></div>
+            <h3 class="snd-lead-text">Allow your body awaken to a life of pure radiance...</h3>
+            <a href="#Products" class="ctn">What we offer</a>
+            
+
+        </div>
+    </header>
+
+    <section class="About" id="About">
+        <div class="container">
+            <div class="abt-row">
+                <h2>About</h2>
+                    
+                
+                 <p>Fragrance Haven is a perfumery brand that deals mainly 
+                     on High Standard Designer Fragrance/ Perfumed Oils. 
+                     We aim to educate you on your day to day scents and 
+                     the necessities of wearing a scent each moment...
+                </p>
+                <button class="collapsible ctn"> More</button>
+                
+                <div class="abt-content">
+                    <p class="page">We understand that there are moods... 
+                        when you sometimes want to do something strong, 
+                        want to just be playfully scented or none but instead just soft 
+                        and sweet for the cool evening stroll or for a night out with
+                        the guys!
+                    </p>
+                    <p class="page">We understand all these and we have different 
+                        scents for different occasions... Lets help you create lasting
+                         memories through scents and leave traces of you everywhere you go! 
+                    </p>
+                    <p class="page">
+                        My name is Bliee from myFragranceHaven! Please contact me for free
+                        consultations that will land you a Billion Dollar Scent for merely a penny!
+                        Yes, that's right! Our scents are affordable and always a GO-TO for each day.
+                    </p>
+                    <p class="page">
+                        Thank you for your future patronage!
+                    </p>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="Pricing">
+        <div class="container container-pricing">
+
+            <table>
+                <caption>Price List</caption>
+                <tr>
+                    <th>Size</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>3ml</td>
+                    <td>#600</td>
+                </tr>
+                <tr>
+                    <td>6ml</td>
+                    <td>#1200</td>
+                </tr>
+                <tr>
+                    <td>12ml</td>
+                    <td>#2500</td>
+                </tr>
+                <tr>
+                    <td>15ml</td>
+                    <td>#3000</td>
+                </tr>
+                <tr>
+                    <td>20ml</td>
+                    <td>#3500</td>
+                </tr>
+                <tr>
+                    <td>30ml</td>
+                    <td>#5000</td>
+                </tr>
+                <tr>
+                    <td>50ml</td>
+                    <td>#8000</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="Products" id="Products">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h2>Products</h2>
+                </div>
+
+                <div class="col"> 
+                    <div class="card">
+                        <div class="card-title">
+                            <h3>3ml</h3>
+                        </div>
+                        <div class="card-img">
+                            <img src="/images/3ml.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-title">
+                            <h3>6ml</h3>
+                        </div>
+                        <div class="card-img ">
+                            <img src="/images/6ml-2.jpg" alt="" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-title">
+                            <h3>12ml</h3>
+                        </div>
+                        <div class="card-img">
+                            <img src="/images/12ml.jpg" alt="" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                        </div>
+                    </div>
+                </div>
+               
+                
+                <div class="col-last"> 
+                    
+                    <div class="card">
+                        <div class="card-title">
+                            <h3>20ml</h3>
+                        </div>
+                        <div class="card-img ">
+                            <img src="/images/20ml.jpg" alt="" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-title">
+                            <h3>30ml</h3>
+                        </div>
+                        <div class="card-img">
+                            <img src="/images/30ml.jpg" alt="" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div id="myModal" class="modal">
+                  <span class="close cursor" onclick="closeModal()">&times;</span>
+                  <div class="modal-content">
+  
+                       <div class="mySlides">
+                           <div class="numbertext">1 / 5</div>
+                           <img src="/images/3ml.jpg" style="width:100%">
+                       </div>
+  
+                       <div class="mySlides">
+                         <div class="numbertext">2 / 5</div>
+                         <img src="/images/6ml-2.jpg" style="width:100%">
+                       </div>
+  
+                       <div class="mySlides">
+                         <div class="numbertext">3 / 5</div>
+                         <img src="/images/12ml.jpg" style="width:100%">
+                       </div>
+      
+                       <div class="mySlides">
+                         <div class="numbertext">4 / 5</div>
+                         <img src="/images/20ml.jpg" style="width:100%">
+                       </div>
+
+                       <div class="mySlides">
+                         <div class="numbertext">5 / 5</div>
+                         <img src="/images/30ml.jpg" style="width:100%">
+                       </div>
+      
+                       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+                       <div class="caption-container">
+                         <p id="caption"></p>
+                       </div>
+
+
+                       <div class="column-packet">
+                        <div class="column">
+                            <img class="demo cursor" src="/images/3ml.jpg" style="width:100%" onclick="currentSlide(1)" alt="3ml">
+                          </div>
+                          <div class="column">
+                            <img class="demo cursor" src="/images/6ml-2.jpg" style="width:100%" onclick="currentSlide(2)" alt="6ml">
+                          </div>
+                          <div class="column">
+                            <img class="demo cursor" src="/images/12ml.jpg" style="width:100%" onclick="currentSlide(3)" alt="12ml">
+                          </div>
+                          <div class="column">
+                            <img class="demo cursor" src="/images/20ml.jpg" style="width:100%" onclick="currentSlide(4)" alt="20ml">
+                          </div>
+                          <div class="column">
+                            <img class="demo cursor" src="/images/30ml.jpg" style="width:100%" onclick="currentSlide(5)" alt="30ml">
+                          </div>
+   
+                       </div>
+  
+  
+
+                    </div>
+                </div>
+  
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Contact-Us" id="Contact-Us">
+        <div class="container">
+            <div class="row cnt-row">
+                <h2 class="cnt-header">Let's Connect</h2>
+                <p class="cnt-quote">Stay in touch, ask questions, and leave reviews to help create a better experience for you </p>
+                <div  class="cnt-form">
+                    <input type="text"  name="user_name" id="fullname" placeholder="Your name">
+                    <input type="email"  name="user_email" id="emailaddress" placeholder="Your Email Address"> 
+                    <textarea name="message" id="usermessage" placeholder="Ask Us Anything..."></textarea>
+                    <button id="button" type="submit">Submit</button>
+                </div>    
+
+                <h2 class="cnt-lead-text">myFragranceHaven</h2>    
+                <div class="cnt-col">
+                    <h2>Get in touch</h2>
+                    <p>O8137290417</p>
+                    <p>favourogbanu@gmail.com</p>
+                </div>
+                <div class="cnt-col col-2">
+                    
+                    <div class="order-content">
+                        <h2>Make an Order</h2>
+
+                       <div class="icons-row">
+                           <a class="btn" id="was" href="https://wa.me/message/GRT2ZH4EC2KJB1" target="_blank">
+                               <i class="fa-brands fa-whatsapp"></i>  
+                           </a> 
+                            
+                           <a class="btn inst" id="ig" href="https://instagram.com/myfragrancehaven.ng?igshid=YmMyMTA2M2Y=" target="_blank">
+                              <i class="fa-brands fa-instagram"></i> 
+                           </a>
+                       
+                       </div>
+                       
+                    </div>
+
+
+                </div>
+
+                <div class="line"></div>
+                <div class="footnote">
+                    <p>
+                        &copy; 2022
+                    </p>
+                    <p>myFragranceHaven</p>
+                    <p>|</p>
+                    <p>All rights reserved</p>
+                </div>
+
+
+                
+            </div>
+
+        </div>
+        
+    </section>
+
+   
+    <script src="https://kit.fontawesome.com/1dceec247c.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="sendEmail.js"></script>
+</body>
+</html>
