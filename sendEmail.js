@@ -13,7 +13,7 @@ submitbutton.addEventListener('click', function(event){
     let message = document.getElementById('usermessage').value
     
     //Sending the email with the name and email
-    emailjs.send("service_lko8vjg", "template_2l9jm27", {
+    emailjs.send("EMAIL_SERVICE_ID", "EMAIL_TEMPLATE_ID", { //get your email service id and template id from your emaiiljs dashboard
         "user_name": fullName,
         "user_email" : email,
         "message" : message,
